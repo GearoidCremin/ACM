@@ -12,9 +12,9 @@ l=[]
 for s in sys.stdin:
     for n in s.split():
         l.append(n)
-
-print l[0]
+        
 randInts = []
+
 for n in range(int(l[0])):
     randInts.append(int(l[n+1]))
            
